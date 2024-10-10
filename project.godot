@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="godot_nodes_motion"
+run/main_scene="res://root.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=2400
+window/stretch/mode="canvas_items"
 
 [rendering]
 
